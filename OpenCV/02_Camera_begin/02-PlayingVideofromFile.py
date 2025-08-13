@@ -4,8 +4,8 @@ import os
 import numpy as np
 import cv2 as cv
 
-#path = '/home/sky/sky/VisualStudio/OpenCV/data/'
-path = '../image/data-jpg'
+#path = '/home/sky/sky/VisualStudio/OpenCV/data/q'
+path = '../image/data1-avi'
 
 fname = os.path.join(path, 'vtest.avi')
 cap = cv.VideoCapture(fname)

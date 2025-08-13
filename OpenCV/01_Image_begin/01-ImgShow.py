@@ -5,8 +5,8 @@ import cv2
 path = '../image/data-jpg'
 fname = os.path.join(path, "lena.jpg")
 
-original = cv2.imread(fname, cv2.IMREAD_COLOR)
-gray = cv2.imread(fname, cv2.IMREAD_GRAYSCALE)
+original = cv2.imread(fname, cv2.IMREAD_COLOR) #COLOR 읽기 (channel 3개)
+gray = cv2.imread(fname, cv2.IMREAD_GRAYSCALE) #channel 1개
 unchange = cv2.imread(fname, cv2.IMREAD_UNCHANGED)
 
 cv2.imshow('Original', original)
